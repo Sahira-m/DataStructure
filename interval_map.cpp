@@ -111,7 +111,7 @@ public:
             if ( (insertMiddle && itEnd!=m_map.end() && itEnd->second == val) || (!insertMiddle && itEnd!=m_map.end() && itEnd->second == beginExtra.second) )
             {
                 itEnd = m_map.erase(itEnd);
-            std::cout << "PANDARAM";
+            
             }
         }
   
